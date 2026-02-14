@@ -55,6 +55,7 @@ def create_user(full_name:str, email:str, password_hash:str) -> dict:
         new_user = {
             "full_name":full_name,
             "email": email,
+            "is_premium": 0,
             "created_at": time
         }
         connection.commit()
@@ -100,7 +101,10 @@ def save_question(question_dict: dict):
     try:
         connection = create_connection()
         cursor = connection.cursor()
-        cursor.execute("""INSERT INTO question(id, subject, difficulty, question_text,option_a, option_b, option_c, option_d, correct_option, explanation, created_at)""", (question_dict['id'], question_dict['subject'], question_dict['difficulty'], question_dict['question_text'], question_dict['option_a'], question_dict['option_b'], question_dict['option_c'],question_dict['option_d'], question_dict['correct_option'], question_dict['explanation'], question_dict['created_at']))
+        cursor.execute("""INSERT INTO question(id, subject, difficulty, question_text, option_a, option_b, option_c, option_d, correct_option, explanation, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", 
+                       (question_dict['id'], question_dict['subject'], question_dict['difficulty'], question_dict['question_text'], 
+                        question_dict['option_a'], question_dict['option_b'], question_dict['option_c'], question_dict['option_d'], 
+                        question_dict['correct_option'], question_dict['explanation'], question_dict['created_at']))
         connection.commit()
         connection.close()
 
@@ -206,7 +210,7 @@ def get_user_attempted_question_ids(user_id) -> list:
         question_id = cursor.fetchall()
         connection.close()
 
-        return question_id
+        return [row[0] for row in question_id]  # Extract plain strings, not Row objects
     except sqlite3.Error as e:
         print(f"Error getting attempted question ids: {e}")
         return []

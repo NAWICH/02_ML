@@ -1,0 +1,289 @@
+LOK SEWA AAYOG - PRACTICE QUESTIONS AND STUDY MATERIAL
+Nepal Public Service Commission Preparation Guide
+=======================================================
+
+SECTION 1: GENERAL KNOWLEDGE (सामान्य ज्ञान)
+
+NEPAL HISTORY
+- Nepal was unified by Prithvi Narayan Shah in 1768 BS (1743 AD)
+- The Shah dynasty ruled Nepal for over 240 years
+- Nepal became a Federal Democratic Republic on 2065 BS Jestha 15 (May 28, 2008)
+- The first Constituent Assembly election was held in 2064 BS (2007 AD)
+- King Tribhuvan returned from exile in India in 2007 BS ending the Rana regime
+- The Rana oligarchy ruled Nepal from 1846 to 1951
+- The Sugauli Treaty was signed between Nepal and British India in 1816 AD
+- Nepal joined the United Nations in 1955 AD
+
+NEPAL GEOGRAPHY
+- Nepal covers an area of 147,181 square kilometers
+- Nepal is a landlocked country bordered by China in the north and India in the south, east, and west
+- Nepal has 7 provinces, 77 districts, 753 local levels
+- The highest peak in the world, Mount Everest (8848.86m), is in Nepal
+- Nepal has 6000+ rivers and rivulets
+- Major rivers: Koshi, Gandaki, Karnali
+- Terai region covers about 17% of Nepal's total area
+- Hilly region covers about 68% of Nepal's total area
+- Himalayan region covers about 15% of Nepal's total area
+- Nepal's capital city is Kathmandu
+
+NEPAL CONSTITUTION 2072
+- Nepal's Constitution 2072 (2015) is the seventh constitution
+- The Constitution was promulgated on Ashwin 3, 2072 BS (September 20, 2015)
+- Nepal is a Federal Democratic Republic with 3 tiers of government
+- Three levels: Federal, Provincial, Local
+- The President is the head of state
+- The Prime Minister is the head of government
+- There are 165 articles in the fundamental rights section
+- The Supreme Court is the highest court
+- Nepal has a bicameral parliament: National Assembly (upper) and House of Representatives (lower)
+- House of Representatives has 275 members (165 FPTP + 110 PR)
+- National Assembly has 59 members
+
+GOVERNMENT STRUCTURE
+- Federal Parliament consists of the National Assembly and the House of Representatives
+- Provincial Parliament is unicameral in all 7 provinces
+- Local level governments include Rural Municipalities, Municipalities, Sub-Metropolitan Cities, Metropolitan Cities
+- Nepal has 6 Metropolitan Cities, 11 Sub-Metropolitan Cities, 276 Municipalities, 460 Rural Municipalities
+- Kathmandu Metropolitan City is the largest city
+
+NATIONAL SYMBOLS
+- National flower: Rhododendron (Laligurans)
+- National bird: Danphe (Himalayan Monal)
+- National animal: Cow
+- National color: Crimson red
+- National language: Nepali
+- National flag: Double pennant shape (world's only non-quadrilateral national flag)
+
+SECTION 2: MATHEMATICS (गणित)
+
+NUMBER SYSTEM
+- Natural numbers: 1, 2, 3, 4, 5...
+- Whole numbers: 0, 1, 2, 3, 4, 5...
+- Integers: ...-3, -2, -1, 0, 1, 2, 3...
+- Rational numbers: numbers expressible as p/q where q≠0
+- Irrational numbers: √2, π, e
+
+BASIC FORMULAS
+- Area of rectangle = length × breadth
+- Area of circle = πr²
+- Area of triangle = ½ × base × height
+- Perimeter of rectangle = 2(length + breadth)
+- Volume of cube = side³
+- Volume of cuboid = length × breadth × height
+- Pythagoras theorem: a² + b² = c²
+- Simple Interest = (Principal × Rate × Time) / 100
+- Compound Interest = P(1 + r/100)^n - P
+
+PERCENTAGE AND RATIO
+- If A is 20% more than B, then A = 1.2B
+- If A is 20% less than B, then A = 0.8B
+- Profit% = (Profit / Cost Price) × 100
+- Loss% = (Loss / Cost Price) × 100
+- Speed = Distance / Time
+
+REASONING AND LOGIC
+- If all A are B and all B are C, then all A are C (syllogism)
+- Venn diagrams represent sets and relationships
+- Blood relations: common types in exams
+  Father's sister = Aunt (Phuphu)
+  Mother's brother = Uncle (Mama)
+  Father's brother = Uncle (Kaka)
+
+SECTION 3: NEPALI LANGUAGE (नेपाली भाषा)
+
+GRAMMAR BASICS
+- Nepali has 11 vowels: अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, ऋ
+- Nepali has 33 consonants
+- Karta (Subject) + Karma (Object) + Kriya (Verb) = Basic sentence structure
+- Sandhi: joining of letters/words
+  Swar Sandhi: joining of vowels
+  Byanjan Sandhi: joining of consonants
+  Bisarga Sandhi: joining with visarga
+
+PARTS OF SPEECH (शब्दभेद)
+- Noun (नाम): names of persons, places, things
+- Pronoun (सर्वनाम): replaces noun (म, तिमी, ऊ)
+- Verb (क्रिया): action words (खानु, पिउनु, सुत्नु)
+- Adjective (विशेषण): describes noun (राम्रो, ठूलो, सानो)
+- Adverb (क्रियाविशेषण): describes verb (बिस्तारै, छिटो, यहाँ)
+- Preposition (परसर्ग): shows relationship (मा, बाट, को, ले)
+- Conjunction (संयोजक): joins words/clauses (र, तर, किनकि)
+- Interjection (विस्मयादिबोधक): expresses emotion (अहा!, ओहो!)
+
+IMPORTANT LITERARY TERMS
+- Alankara (अलंकार): figures of speech
+- Upamaaa (उपमा): simile - "जस्तो/झैं" used
+- Rupak (रूपक): metaphor - direct comparison
+- Anupras (अनुप्रास): alliteration
+- Yamak (यमक): same word different meanings
+
+SECTION 4: ENGLISH LANGUAGE
+
+GRAMMAR RULES
+- Tenses: Present, Past, Future (each with Simple, Continuous, Perfect, Perfect Continuous)
+- Articles: 'a' before consonant sounds, 'an' before vowel sounds, 'the' for specific
+- Subject-verb agreement: singular subject takes singular verb
+- Active voice: Subject + Verb + Object
+- Passive voice: Object + be + past participle + by + Subject
+
+VOCABULARY
+- Synonym examples:
+  Happy = Glad, Joyful, Content
+  Sad = Unhappy, Sorrowful, Melancholy
+  Begin = Start, Commence, Initiate
+  End = Finish, Conclude, Terminate
+
+- Antonym examples:
+  Ancient ↔ Modern
+  Courage ↔ Cowardice
+  Expand ↔ Contract
+  Genuine ↔ Fake
+
+SECTION 5: GENERAL SCIENCE (सामान्य विज्ञान)
+
+PHYSICS BASICS
+- Newton's Laws of Motion:
+  First: Object at rest stays at rest unless acted upon by force
+  Second: F = ma (Force = mass × acceleration)
+  Third: Every action has equal and opposite reaction
+- Speed of light = 3 × 10⁸ m/s
+- Gravity on Earth = 9.8 m/s²
+- Sound travels faster in solids than in liquids than in gases
+
+CHEMISTRY BASICS
+- Water formula: H₂O
+- Carbon dioxide: CO₂
+- Oxygen: O₂
+- Sodium chloride (common salt): NaCl
+- The pH of water is 7 (neutral)
+- Acid: pH less than 7
+- Base: pH greater than 7
+
+BIOLOGY BASICS
+- Human body has 206 bones
+- Human heart has 4 chambers
+- Normal human body temperature: 37°C (98.6°F)
+- Red blood cells carry oxygen using hemoglobin
+- Photosynthesis: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂
+- DNA carries genetic information
+
+SECTION 6: CURRENT AFFAIRS (समसामयिक)
+
+NEPAL DEVELOPMENT
+- Nepal's Human Development Index (HDI) ranks it among developing nations
+- Nepal signed the Millennium Challenge Corporation (MCC) compact worth $500 million
+- Nepal has set goal to graduate from LDC status
+- Major development projects: Pokhara International Airport, Budhigandaki Hydropower
+- Nepal's fiscal year runs from Shrawan 1 to Ashadh 31
+
+INTERNATIONAL ORGANIZATIONS
+- Nepal is member of SAARC, BIMSTEC, United Nations
+- SAARC headquarters: Kathmandu, Nepal
+- Nepal contributes significantly to UN Peacekeeping missions
+- Nepal is member of WTO, World Bank, IMF
+
+SAMPLE PRACTICE QUESTIONS
+
+GK QUESTIONS:
+Q1: What is the capital of Nepal?
+A) Pokhara  B) Kathmandu  C) Biratnagar  D) Lalitpur
+Answer: B) Kathmandu
+Explanation: Kathmandu is the capital and largest city of Nepal, serving as the center of political, cultural, and commercial activities.
+
+Q2: When was Nepal's Constitution 2072 promulgated?
+A) 2072 Shrawan 1  B) 2072 Ashwin 3  C) 2072 Baisakh 1  D) 2072 Poush 15
+Answer: B) 2072 Ashwin 3 (September 20, 2015)
+Explanation: Nepal's current constitution, the seventh in Nepal's history, was promulgated on Ashwin 3, 2072 BS.
+
+Q3: How many districts does Nepal have?
+A) 72  B) 75  C) 77  D) 80
+Answer: C) 77
+Explanation: Nepal was reorganized into 77 districts from the previous 75 districts after the new federal structure.
+
+Q4: What is Nepal's national flower?
+A) Lotus  B) Rose  C) Rhododendron  D) Jasmine
+Answer: C) Rhododendron (Laligurans)
+Explanation: The Rhododendron (Laligurans) is Nepal's national flower, found abundantly in Nepal's hills and mountains.
+
+Q5: Who unified Nepal?
+A) King Tribhuvan  B) King Mahendra  C) Prithvi Narayan Shah  D) Ram Shah
+Answer: C) Prithvi Narayan Shah
+Explanation: Prithvi Narayan Shah, the founder of modern Nepal, unified various small kingdoms and principalities to form Nepal, starting from 1768 AD.
+
+MATH QUESTIONS:
+Q6: If a train travels 300 km in 5 hours, what is its speed?
+A) 50 km/h  B) 55 km/h  C) 60 km/h  D) 65 km/h
+Answer: C) 60 km/h
+Explanation: Speed = Distance/Time = 300/5 = 60 km/h
+
+Q7: What is 15% of 200?
+A) 20  B) 25  C) 30  D) 35
+Answer: C) 30
+Explanation: 15% of 200 = (15/100) × 200 = 15 × 2 = 30
+
+Q8: If the simple interest on Rs. 1000 at 5% per annum for 2 years is?
+A) Rs. 50  B) Rs. 100  C) Rs. 150  D) Rs. 200
+Answer: B) Rs. 100
+Explanation: SI = (P × R × T)/100 = (1000 × 5 × 2)/100 = 10000/100 = Rs. 100
+
+SCIENCE QUESTIONS:
+Q9: What is the chemical formula for water?
+A) H₂O₂  B) HO  C) H₂O  D) H₃O
+Answer: C) H₂O
+Explanation: Water consists of two hydrogen atoms bonded to one oxygen atom, giving it the chemical formula H₂O.
+
+Q10: What is the normal human body temperature?
+A) 35°C  B) 36°C  C) 37°C  D) 38°C
+Answer: C) 37°C
+Explanation: The normal human body temperature is 37°C (98.6°F). Temperatures significantly above or below this indicate fever or hypothermia.
+
+ENGLISH QUESTIONS:
+Q11: Choose the correct article: "_____ Everest is the highest mountain."
+A) A  B) An  C) The  D) No article
+Answer: C) The
+Explanation: We use 'the' with specific, unique things. Mount Everest is a unique, specific mountain, so we use 'the'.
+
+Q12: What is the synonym of 'Abundant'?
+A) Scarce  B) Plentiful  C) Limited  D) Rare
+Answer: B) Plentiful
+Explanation: 'Abundant' means existing in large quantities. 'Plentiful' has the same meaning. 'Scarce', 'Limited', and 'Rare' are antonyms.
+
+NEPALI QUESTIONS:
+Q13: नेपाली भाषामा स्वरको संख्या कति छ?
+A) ९  B) १०  C) ११  D) १२
+Answer: C) ११
+Explanation: नेपाली भाषामा ११ स्वर छन्: अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, ऋ
+
+SECTION 7: ADMINISTRATIVE KNOWLEDGE
+
+LOK SEWA EXAM STRUCTURE
+- Written examination: Objective and Subjective
+- Practical examination (if applicable)
+- Interview
+
+CIVIL SERVICE LEVELS
+- Rastriya Sewa (National Service)
+- Nepal Nyaaya Sewa (Nepal Judicial Service)
+- Nepal Shasastra Prahari Sewa (Nepal Armed Police Service)
+- Pra-shasan Sewa (Administrative Service)
+
+IMPORTANT ACTS AND LAWS
+- Civil Service Act 2049 BS governs civil servants
+- Right to Information Act 2064 BS
+- Anti-Corruption Act 2059 BS
+- Local Government Operation Act 2074 BS
+- Intergovernmental Fiscal Arrangement Act 2074 BS
+
+ADMINISTRATIVE TERMS
+- Sarkar: Government
+- Prasasan: Administration
+- Bibhag: Department
+- Karyalaya: Office
+- Prashasan Sewa: Administrative Service
+- Loksewa: Public Service
+
+=======================================================
+END OF STUDY MATERIAL
+Use this material to test the RAG-based question generation system.
+The AI should be able to generate relevant MCQ questions based on this content.
+=======================================================
