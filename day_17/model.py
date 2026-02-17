@@ -3,14 +3,14 @@ import torch.nn as nn
 
 SUBJECTS = ['Gk', 'Math', 'Nepali', 'English', 'Science']
 EMBEDDINGS = 384
-class QoestionClassifire(nn.Module):
+class QuestionClassifier(nn.Module):
     def __init__(self,
                  input_size: int = EMBEDDINGS,
                  hidden1: int = 256,
                  hidden2: int = 128,
                  input_classes: int = len(SUBJECTS),
                  drop_out_rate: float = 0.3):
-        super.__init__()
+        super().__init__()
         
         self.classifier = nn.Sequential(
             #Layer 1
@@ -29,5 +29,5 @@ class QoestionClassifire(nn.Module):
             nn.Linear(hidden2, input_classes),
         )
     
-    def forword(self, x: torch.tensor) -> torch.tensor:
+    def forward(self, x: torch.tensor) -> torch.tensor:
         return self.classifier(x)

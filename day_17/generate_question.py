@@ -18,7 +18,7 @@ def generate_training_data():
     for subject in subjects:
         for diffculty in difficulities:
             print(f"Generating {subject} {diffculty} questions...")
-            questions = service.generate_questions(subject=subject, difficulty=diffculty, count = 10)
+            questions = service.generate_questions(subject=subject, difficulty=diffculty, count = 20)
 
             for q in questions:
                 all_questions.append({"question": q['question'], "subject": subject})
