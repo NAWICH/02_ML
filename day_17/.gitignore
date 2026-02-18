@@ -2,3 +2,5 @@
 data/
 chroma_db/
 database.db
+label_encoder.npy
+question_classifier.pth
