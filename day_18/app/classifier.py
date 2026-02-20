@@ -42,17 +42,3 @@ class SubjectClassifier():
                 "subject" : predicted_subject,
                 "confidence": confidence
                 }
-        
-
-classifier = SubjectClassifier()
-
-test_questions = [
-    "What is the capital of Nepal?",     # Should be GK
-    "Calculate 15% of 200",              # Should be Math
-    "Choose the correct article",        # Should be English
-    "What is H2O?",                      # Should be Science
-]
-
-for q in test_questions:
-    result = classifier.predict(q)
-    print(f"{q[:30]:30} → {result['subject']:8} ({result['confidence']:.2%})")
