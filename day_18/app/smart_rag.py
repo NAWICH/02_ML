@@ -5,7 +5,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import os
-from classifier import SubjectClassifier
+from app.classifier import SubjectClassifier
 load_dotenv()
 class SmartRAGService():
     def __init__(self):
@@ -20,7 +20,7 @@ class SmartRAGService():
         self.llm = ChatGroq(
             temperature=0.7,
             model="llama-3.3-70b-versatile",
-            api_key=os.getenv('GROQ_API_KE')
+            api_key=os.getenv('GROQ_API_KEY')
             )
         self.classifier = SubjectClassifier()
 
@@ -33,10 +33,11 @@ class SmartRAGService():
         4. Add all chunks to ChromaDB
         5. Return chunk count
         """
-        if os.path.exists(file_path):
-            loader = PyPDFLoader(file_path)
-        else: 
-            print("No file path found")
+        if not os.path.exists(file_path):
+            print(f"File not found: {file_path}")
+            return 0
+
+        loader = PyPDFLoader(file_path)
 
         try:
             pdf_data = loader.load()
@@ -53,8 +54,10 @@ class SmartRAGService():
 
             self.vector_store.add_documents(chunks)
             print(f"Splited into {len(chunks)} chunks...")
+            return len(chunks)
         except Exception as e:
-            print("Error in index_by_subject(smart_rag): {e}")
+            print(f"Error in index_by_subject(smart_rag): {e}")
+            return 0
         
     def smart_query(self, question):
         """1. Use classifier.predict(question)
@@ -84,11 +87,11 @@ class SmartRAGService():
             print(f"question: {question}, \nsubject: {predicted_data['subject']}, \nconfidencr:{predicted_data['confidence']}")
             
             if predicted_data['confidence'] < 0.6:
-                retriver = self.vector_store.as_retriever(search_kwargs = 4)
+                retriever = self.vector_store.as_retriever(search_kwargs = {"k": 4})
             else:
-                retriver = self.vector_store.as_retriever(search_kwargs = {"k": 4, "filter": {predicted_data['subject']}})
+                retriever = self.vector_store.as_retriever(search_kwargs = {"k": 4, "filter": {"subject": predicted_data['subject']}})
             
-            relevant_doc = retriver.invoke(question)
+            relevant_doc = retriever.invoke(question)
             context = "\n\n" .join(doc.page_content for doc in relevant_doc)
             prompt = f"""
             You are a Teacher which has knowlegde all the knowledge on {predicted_data['subject']}
@@ -101,7 +104,9 @@ class SmartRAGService():
                 {"role": "user", "content": prompt}
             ]
             
-            answer = self.llm.invoke(messages)
+            response = self.llm.invoke(messages)
+            answer = response.content 
+
             sources = [
                 {
                     "text": doc.page_content[:200] + "...",
@@ -120,5 +125,8 @@ class SmartRAGService():
         except Exception as e:
             print(f"Error in smart_query(smart_rag): {e}")
             return {
-
+                "answer": f"Error processing {str(e)}",
+                "detected_subject": "invalid",
+                "confidence": 0.0,
+                "sources" : []
             }
